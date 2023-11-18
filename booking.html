@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Booking Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, select {
+            width: 100%;
+            margin: 8px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin-top: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Resort Booking Registration</h2>
+        <form id="registration-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="date" placeholder="Check-in Date" required>
+            <input type="date" placeholder="Check-out Date" required>
+            <select>
+                <option value="" disabled selected>Select Room Type</option>
+                <option value="standard">Standard Room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite</option>
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+        <p>Already booked? <a href="#">Check your reservation</a></p>
+    </div>
+</body>
+</html>

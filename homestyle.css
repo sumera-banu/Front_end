@@ -1,0 +1,40 @@
+*
+{
+	padding:0;
+	margin:0;
+	
+}
+.header
+{
+	height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/banner1.jpeg);
+    background-size: cover;
+    background-position: center;
+	background-attachment:fixed;
+	padding-top:20px;
+	text-align:center;
+	color:#fff;
+}
+.header img
+{
+	width:170px;
+	float:left;
+}
+.header h1{
+	padding-top:260px;
+	padding-bottom:0;
+	font-size:55px;
+}
+.header padding
+{
+	margin:18px 0;
+}
+.input-group
+{
+	width:90%;
+	max-width:500px;
+	border-radius:30px;
+	background:#fff;
+	margin:auto;
+	padding:2px;
+}
