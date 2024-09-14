@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to Ordinal with Superscript</title>
+
+    <script>
+       
+        function showOrdinal() {
+            const numberInput = document.getElementById("number").value;
+            const ordinal = suffix(parseInt(numberInput));
+            document.getElementById("result").innerHTML = "Result: " + ordinal;
+        }
+    </script>
+</head>
+<body>
+
+    <h2>Enter a Number to Get Its Ordinal Form</h2>
+    <input type="number" id="number" placeholder="Enter a number">
+    <button onclick="showOrdinal()">Show Ordinal</button>
+
+    <p id="result"></p>
+    <script src="superscript.js"></script>
+
+</body>
+</html>
